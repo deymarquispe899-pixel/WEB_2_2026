@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Tareas</title>
+
+    <!-- TU CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Gestor de Tareas</h1>
+
+        <!-- FORMULARIO -->
+        <form id="taskForm">
+
+            <input type="text" id="taskInput" placeholder="Tarea" required>
+
+            <input type="text" id="descInput" placeholder="Descripción" required>
+
+            <input type="date" id="dateInput" required>
+
+            <select id="priorityInput">
+                <option value="Alta">Alta</option>
+                <option value="Media">Media</option>
+                <option value="Baja">Baja</option>
+            </select>
+
+            <button type="submit">Agregar</button>
+
+        </form>
+
+        <!-- TABLA -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Tarea</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                    <th>Prioridad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+        </table>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
