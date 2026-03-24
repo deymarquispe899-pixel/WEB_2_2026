@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "task": "asd",
+      "Description": "fasf",
+      "date": "2026-03-12",
+      "priority": "Alta",
+      "completed": false,
+      "id": "jxFW2aQEnHc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
